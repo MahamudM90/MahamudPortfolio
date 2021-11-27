@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body{
+    font-family: "Roboto Condensed" sans-serif;
+}
+:root{
+    --primary-white : rgb(255, 255, 255);
+    --primary-orange: orange;
+    --primary-dark: rgba(255 , 255 , 255 , 0);
+    --primary-brandColor:yellow ;
+    --primary-green:rgb(0, 255, 34) ;
+    --primary-black : black ;
+    --primary-facebook :rgb(8, 74, 255);
+    --primary-instagram :rgb(102, 15, 129);
+    --primary-linkedin :rgb(17, 74, 165);
+    --primary-twitter : rgb(0, 109, 182);
+    --primary-gamil : rgb(204, 72, 72);
+    --primary-gray : rgb(194, 191, 191);
+}
+/* Nvaigation Bar */
+.navbarFonts{
+    text-transform: uppercase;
+}
+.navbarFonts > .link{
+    border-top: 0.1875rem solid var(--primary-dark);
+}
+.navbarFonts > .active{
+    border-top: 0.1875rem solid var(--primary-orange);
+}
+.navbarFonts > .link:hover{
+    border-top: 0.1875rem solid var(--primary-orange);
+}
+.navbarColors{
+    color: var(--primary-white) !important;
+}
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+/* // -------------ICONS------- */
+.myNav , .icons{
+  z-index: 2;
+}
+.icons > a {
+  padding: 5px;
+  font-size: 2.3rem;
+}
+#github :hover {
+  color: var(--primary-black);
+}
+#facebook :hover {
+  color: var(--primary-facebook);
+}
+#instagram :hover {
+  color: var(--primary-instagram);
+}
+#linkedin :hover {
+  color: var(--primary-linkedin);
+}
+.icons > #twitter :hover {
+  color: var(--primary-twitter);
+}
+.icons > #stackOverflow :hover{
+  color:var(--primary-orange);
+}
+.icons > #gamil :hover {
+  color:var(--primary-green);
+}
+.icons > #medium :hover {
+  color:var(--primary-black)
+}
+
+/*--------------- brandds */
+.brand > h4{
+  border-top: 0.1875rem solid var(--primary-dark);
+  color: var(--primary-orange);
+  font-family: "Dancing Script";
+}
+/* -----gretting subtitle */
+.greetingSubtitle{
+  font-size: 1.5rem;
+  max-width: 31.25rem;
+  letter-spacing: 0.0625rem;
+}
+
+/* skill icons  */
+#skillIcons{
+  font-size: 2rem;
+}
+#skillIcons :hover{
+  color: var(--primary-orange);
+}
+/* LOTTIES */
+.blogLinks:hover{
+  text-decoration: none;
+}
+/* contact me  */
+.text-body > p , .text-body > p > a {
+  letter-spacing : .015rem;
+
+}
+.text-body > p > a:hover {
+  text-decoration: none;
+  text-shadow:2px 2px 5px var(--primary-gray);
+}
+
+/*  media query */
+@media(max-width : 425px) {
+  .main-info h1{ 
+    font-size: 1rem;
+  }
+  .brand > h4{
+    border-top: 0.1875rem solid var(--primary-dark);
+    color: var(--primary-green);
+    font-size: 1rem;
+    font-family: "Dancing Script";
+  }
+  .greetingSubtitle{
+    font-size: 1rem;
+    max-width: 20.25rem;
+    letter-spacing: 0.0625rem;
+  }
+  .icons > a {
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  .Padding425{
+    margin-left:50px;
+    margin-top:20px;
+
+  }
+}
+/* navbar toogle icon  */
+.navbar-toggler{
+  border: 1px solid red;
+}
+/* exprience link Btn */
+.exBtn {
+  color: var(--primary-black);
+  text-decoration: none;
+}
+
+
+@media(max-width : 320px) {
+  .main-info h1{ 
+    font-size: 1.5rem;
+  }
+  .icons > a {
+    padding: 5px;
+    font-size: 1.3rem;
+  }
+}
+/* animaation color on name */
+
+/*  ------------media quary - */
+
+@media(min-width : 1024px) {
+  .main-info h1{ 
+    font-size: 3.2rem;
+  }
+  .brand > h4{
+    border-top: 0.1875rem solid var(--primary-dark);
+    color: var(--primary-orange);
+    font-size: 1.3rem;
+    font-family: "Dancing Script";
+  }
+  .greetingSubtitle{
+    font-size: 1.5rem;
+    max-width: 30.25rem;
+    letter-spacing: 0.0625rem;
+  }
+  .myNav button {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
