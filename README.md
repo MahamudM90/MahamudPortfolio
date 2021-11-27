@@ -1,6 +1,6 @@
 
 
-### [liive]
+### [live](https://mahamudsportfolio.netlify.app/)
 <!-- create new brance
     git checkout -n brance name
     git push -u origin brance name -->
@@ -15,5 +15,5 @@
 - after finishing update dependency run `npm start or yarn start`
 - then first open src folder and find portfolioData.js file.
 - and exchange you information and follow the comment (enjoy it)
-- if need any help fell free to email to me : mahamud01795@gmail.com or create an github issu.
+- if need any help fell free to email to me : mahamud01795@gmail.com or create an github issue.
 # Mahamudsportfolio
